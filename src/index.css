@@ -5,9 +5,85 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  background: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+img{
+  height: 80px;
+}
+
+.logo{
+  text-decoration: black;
+  font-weight: 600;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.navlink{
+  padding-left: 20px;
+  text-decoration: black;
+  color: black;
+  font-weight: 500;
+}
+
+.cartCounter{
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.productWrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.productCard{
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.addToCartBtn{
+  background: goldenrod;
+  border: none;
+  padding: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.addToCartBtn:hover{
+  background: green;
+  
+}
+
+.cartImage{
+  width: 80px;
+  height: 100px;
+}
+
+.cardCart{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.cartRemoveBtn{
+  height: 30px;
+  background: gold;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.cartRemoveBtn:hover{
+  background: red;
 }
